@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <script src="https://kit.fontawesome.com/5e4f658114.js" crossorigin="anonymous"></script>
+</head>
+<body class=" ">
+   <nav class="flex  h-[50px] w-full justify-between items-center bg-gradient-to-l from-lime-600 to-indigo-900 px-[70px] border-b-3 border-b-white-600 text-white">
+            
+            <ul class="flex justify-between items-center text-from-stone-50 to-Amber-500 gap-7">
+                <li>Home</li>
+                 <li>Shop</li>
+                  <li>Blog</li>
+                   <li>About</li>   
+            </ul>
+            <h3 class="text-3xl font-bold bg-gradient-to-l from-stone-50 to-indigo-900 bg-clip-text text-transparent">Carefair</h3>
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-plus"></i>
+                <i class="fa-regular fa-face-laugh"></i>
+            </div>
+        </nav>
+        <div class="bg-gradient-to-l from-indigo-600 to-lime-900  flex justify-center gap-35 items-center text-white px-[35px] pt-10">
+
+            <div class=" w-130  flex flex-col gap-6">
+                <h1 class="text-6xl">Beauty <br> blooms with <br> skincare</h1>
+                <p class="">Lorem corrupti aut saepe veniam, reprehenderit dignissimos aliquid iste ullam eius laboriosam corporis totam.</p>
+              <div class="flex items-center gap-6">
+                <button class="rounded-full bg-gradient-to-l from-rose-500 to-Amber-500  w-30 h-10">Shop now</button>
+              <div class="w-10 h-10  flex justify-center items-center rounded-full border border-rose-500">
+               <i class="fa-solid fa-arrow-down"></i>
+            </div>
+                </div>
+            </div>
+
+            <div class=" w-125 ">
+                <img src="Frame 2.png" alt="">
+            </div>
+            
+        </div>
+        
+</body>
+</html>
